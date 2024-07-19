@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDESTRUCTIBLE-FILMS</title>
+    <link href="team.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="favicom.png" rel="icon">
+</head>
+<body>
+    <!----top bar----->
+   
+        
+        <nav class="navbar">
+            <div class="llogo"> <a href="index.html"><img class="brand-title" src="favico.png"></a></div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span> 
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a class="nav-link " href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link active" href="team.html">Team</a></li>
+                <li><a class="nav-link" href="cotact.html">Contact</a></li>
+                <li><a class="nav-link" href="form.html">Registration</a></li>
+              </ul>
+            </div>
+         
+
+        <!----icons----->
+        <div class="ico">
+        <div class="rght2">
+            <a class="ico2" href="https://www.instagram.com/indeeicu" target="_blank"><img class="git2" src="icons8-instagram-100.png"></a>
+        </div>
+        <div class="rght2">
+            <a class="ico3" href="https://www.linkedin.com/company/indeicu/" target="_blank"><img class="git3" src="icons8-linkedin-100.png"></a>
+        </div>
+        <div class="rght2">
+            <a class="ico4" href="https://x.com/indeicu" target="_blank"><img class="git4" src="icons8-twitter-100.png"></a>
+        </div>
+    </div>
+    </nav>
+
+    
+<div class="maicotai">
+     <!----forth page----->
+     <div class="container4">
+        <div class="servi">
+            <p class="pluu">+</p>
+            <p class="ssee">Our Team</p>
+        </div>
+        <div>
+<div class="roow">
+        <div class="team">
+            <div class="img1">
+                <img class="jules" src="jules.jpg">
+                <p class="cerd9">Jules MURINDA<br> <span class="fou">Film Director</span></p>
+            </div>
+        </div>
+
+        <div class="team">
+            <div class="img2">
+                <img class="jules2" src="2.png">
+                <p class="cerd8">David OWUSU<br><span class="fou8">Film Producer & Film Director</span></p>
+            </div>
+        </div>
+
+        <div class="team">
+            <div class="img3">
+                <img class="jules2" src="3.png">
+                <p class="cerd1">Jean Pierre HABUMUREMYI<br> <span class="fou1">Cinematographer & Film Editor</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="row">
+    <div class="team">
+        <div class="img4">
+            <img class="jules2" src="4.jpg">
+            <p class="cerd13">Louise NIYONIZEYE<br> <span class="fou">Digital Marketing</span></p>
+        </div>
+    </div>
+
+    <div class="team">
+        <div class="img5">
+            <img class="jules2" src="6.jpg">
+            <p class="cerd7">Serge INEZA MUHIRE<br> <span class="fou7">Cinematographer & Sound designer</span></p>
+        </div>
+    </div>
+
+    <div class="team">
+        <div class="img6">
+            <img class="jules2" src="55.jpg">
+            <p class="cerd15">Ezechiel GATARE<br> <span class="fou15">Film Editor & Graphic Design</span></p>
+        </div>
+    </div>
+    
+</div>
+    </div>
+
+
+    <!---page five--->
+    
+    <!----footer----->
+
+      <div class="footer">
+        <div class="left9">
+            <div class="cc">
+                <img class="call" src="icons8-phone-100.png">
+               <a href="callto:(+250) 788856182"><p class="ph">(+250) 788856182</p></a> 
+            </div>
+            <div class="email">
+                <img class="ema" src="icons8-gmail-100.png">
+                <a href="mailto:indestructiblefilmsrw@gmail.com"><p class="phh">indestructiblefilmsrw@gmail.com</p></a>
+            </div>
+        </div>
+
+        <div class="middle9">
+            <p class="ge">&copy; <span class="gatr">Copyright 2024 INDESTRUCTIBLE FILMS. All Rights Reserved.</span></p>
+        </div>
+
+       <div class="right9">
+    <a href="https://www.instagram.com/indeeicu" target="_blank"><img class="ii" src="icons8-instagram-100.png"></a>
+    <a href="https://www.linkedin.com/company/indeicu/" target="_blank"><img class="iii" src="icons8-linkedin-100.png"></a>
+   <a href="https://x.com/indeicu" target="_blank"><img class="iiii" src="icons8-twitter-100.png"></a> 
+</div>
+    </div>
+
+
+</div>
+    <script type="text/javascript">
+        
+
+
+        var navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+
+        navLinks.forEach(function(link) {
+            link.classList.remove('active');
+        });
+        this.classList.add('active');
+    });
+});
+
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const ico = document.getElementsByClassName('ico')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+  ico.classList.toggle('active')
+})
+
+    </script>
+
+
+</body>
+</html>
